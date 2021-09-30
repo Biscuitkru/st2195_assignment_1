@@ -1,0 +1,21 @@
+---
+title: "Assignment 1"
+author: "Victor Min"
+date: "9/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is the R Markdown document of Assignment 1 where we were tasked to create an R script that prints integers between 1 and 10 with an extra point awarded if a for loop was used.
+
+```
+for (x in 1:10) {print(x)}
+
+x <- 1:10
+print(x)
+```
