@@ -11,11 +11,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is the R Markdown document of Assignment 1 where we were tasked to create an R script that prints integers between 1 and 10 with an extra point awarded if a for loop was used.
-
 ```
+This is the R Markdown document of Assignment 1 where we were tasked to create an R script that prints integers between 1 and 10 with an extra point awarded if a for loop was used.
+```
+
+```{r}
 for (x in 1:10) {print(x)}
 
 x <- 1:10
 print(x)
 ```
+
+
